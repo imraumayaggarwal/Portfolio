@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./styles.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav id="desktop-nav">
+        <div class="logo"><a href="#">Raumay Aggarwal</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <!-- <li><a href="#experience">Experience</a></li> -->
+                <li><a href="#projects">Projects</a></li>
+                <li id="contact-me"><a href="#contactme">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PROFILE -->
+    <section id="profile" class="profile">
+        <div class="profile-image">
+            <img src="./assets/pfp.png" alt="profile-img">
+        </div>
+        <div class="profile-info">
+            <p class="pi-one">Hello, I'm</p>
+            <p class="pi-two">Raumay Aggarwal</p>
+            <p class="pi-three">Shall we begin?</p>
+            <div class="profile-btns">
+                <button class="profile-buttons" onclick="window.open('./assets/RaumayAggarwal.pdf')"><p>Download CV</p></button>
+                <button class="profile-buttons" id="button2" onclick="location.href='./#contactme'"><p>Contact Info</p></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="about-header">
+          <p class="aboutmetext">Get to Know More</p>
+          <h1 class="aboutheading">About Me</h1>
+        </div>
+
+        <div class="about-section">
+          <div>
+            <img src="./assets/c.png" class="img2" alt="Banner Image">
+          </div>
+          <div class="desc-section">
+            <div class="education">
+                <div class="highereducation">
+                  <img src="./assets/grad.png" id="highereducation-img" alt="University Logo">
+                  <div class="edu-details">
+                    <h3>Graphic Era Deemed University</h3>
+                    <p class="edu-details-text" id="degree-type">B.Tech CSE (Hons.)</p>
+                    <p class="edu-details-text"><span id="specialization">with specialization in </span>AI & Data Science</p>
+                    <p class="edu-details-text" id="date-edu-details">2023 - 2027</p>
+                  </div>
+                </div>
+                <div class="school">
+                  <img src="./assets/pp.jpg" alt="School Logo" id="school-img">
+                  <div class="edu-details">
+                    <h3>DAV International School</h3>
+                    <span class="edu-details-gap">
+                        <p class="date-school-details" id=date-school-details-paraone>Matriculate & Intermediate</p>
+                        <p class="date-school-details"><span id="date">2021 - 2023</span></p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                Hey there! I'm Raumay Aggarwal, currently writing the first professional chapter of my life. With a never-ending curiosity about space and the unknown, I naturally lean towards cutting-edge tech and innovative solutions to address the challenges around us. I love communicating—it's one of my strongest assets. It has helped me grow as a tutor and sharpen my natural leadership, paving the way for me to express ideas in a simple yet creative manner. Off the clock, I capture moments, sketch, and explore diverse cultures, with each experience adding a unique dimension to my creative approach. Welcome to my portfolio!
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="about-header">
+            <p class="aboutmetext">My</p>
+            <h1 class="aboutheading">Skills</h1>
+        </div>
+        <div class="skill-containers">
+          <div class="con1">
+            <div class="skill-conc">
+              <h2 class="skill-cont-heading">Programming Skills</h2>
+              <div class="skill-desc">
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">Python</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">Java</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">C++</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">C</p>
+              </div>
+            </div>
+            <div class="skill-conc">
+              <h2 class="skill-cont-heading">Frontend</h2>
+              <div class="skill-desc">
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">HTML5</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">CSS3</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">JavaScript</p>
+             </div>
+            </div>
+          </div>
+          <div class="con2">
+            <div class="skill-conc">
+              <h2 class="skill-cont-heading">Backend</h2>
+              <div class="skill-desc">
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">Node.js</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">Express.js</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">RESTful APIs</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">Authentication & Authorization</p>
+              </div>
+            </div>
+            <div class="skill-conc">
+              <h2 class="skill-cont-heading">Database</h2>
+              <div class="skill-desc">
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">MySQL</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">SQL</p>
+                <img class="skill-img" src="./assets/checkmark.png">
+                <p class="skill-para">MongoDB</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      </section>
+
+      <section id="projects" class="Projects">
+        <div class="about-header">
+          <p class="aboutmetext">Explore My</p>
+          <h1 class="aboutheading">Projects</h1>
+        </div>
+        <div class="projects-containers">
+          <div class="project1">
+            <img class="imgone-project" src="./assets/p1.PNG">
+            <p class="project-desc">SIMPL3FY</p>
+            <div class="project-buttons">
+              <button class="button-project" onclick="location.href='https://imraumayaggarwal.github.io/SIMPL3FY-Simply-Finance-Yourself/frontend/index.html'">Live Demo</button>
+              <button class="button-project" onclick="location.href='https://github.com/imraumayaggarwal/SIMPL3FY-Simply-Finance-Yourself'">GitHub</button>
+              
+            </div>
+            <p class="hover-desc">✅<b>User-friendly</b>, ensuring that anyone can manage their expenses without hassle.</p><br>
+            <p class="hover-desc">✅<b>No pay to use</b>, unlike other platforms, where user pays to use premium features.</p>
+          </div>
+          <div class="project1">
+            <img class="imgone-project" src="./assets/p2.PNG">
+            <p class="project-desc">FEDT</p>
+            <div class="project-buttons">
+              <button class="button-project" onclick="location.href='https://imraumayaggarwal.github.io/Food-Security-Donation-Tracker/frontend/index.html'">Live Demo</button>
+              <button class="button-project" onclick="location.href='https://github.com/imraumayaggarwal/Food-Security-Donation-Tracker'">GitHub</button>
+            </div>
+            <p class="hover-desc">✅<b>Impactful Contribution–</b>Encourages responsible food consumption and supports communities in need.</p><br>
+            <p class="hover-desc">✅<b>Smart Notifications–</b>Sends reminders to consume or donate food before expiry, reducing waste.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contactme" class="contactme">
+        <div class="about-header">
+          <p class="aboutmetext">Get in touch</p>
+          <h1 class="aboutheading">Contact Me</h1>
+        </div>
+        <div class="contactcontainer">
+          <ul class="contactme-links">
+            <img class="contactmeimgone" src="./assets/email.png">
+            <li><a href="mailto:aggarwalraumay@gmail.com">aggarwalraumay@gmail.com</a></li>
+            <img class="contactmeimgtwo" src="./assets/linkedin.png">
+            <li><a href="https://www.linkedin.com/in/raumayaggarwal">LinkedIn</a></li>
+        </ul>
+        </div>
+      </section>
+
+      <footer>
+        <div>
+            <ul class="footer-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <!-- <li><a href="#experience">Experience</a></li> -->
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contactme">Contact</a></li>
+            </ul>
+          </div>
+        <p class="footertext">Copyright © 2025 Raumay Aggarwal. All Rights Reserved.</p>
+      </footer>
+      
+</body>
+</html>
