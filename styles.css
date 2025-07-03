@@ -9,6 +9,7 @@ nav, .nav-links {
     display: flex;
 }
 
+
 nav {
     height: 18vh;
     justify-content: space-around;
